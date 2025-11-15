@@ -112,18 +112,16 @@ Models trained using:
 yaml
 Copy code
 
-Metrics collected:
+
+Metrics computed:
 
 - Accuracy  
 - Precision  
 - Recall  
 - F1-score  
-- Training Time  
-
-Additional full-data curves:
-
-- ROC Curve  
-- Precision–Recall Curve  
+- Training time  
+- ROC curve  
+- Precision-Recall curve  
 
 ---
 
@@ -143,56 +141,71 @@ Additional full-data curves:
 - **PR-AUC:** 0.865  
 - **Training Time:** ~3200 sec  
 
+➡ **Neural Networks outperform LR significantly**, but LR is far faster.
+
 ---
 
 # 📊 Visualizations
 
-> Upload your images into the **figures/** folder  
-> They will appear automatically in the README
+Below are the plots generated during the experiment.
 
 ---
 
-## 📉 Performance Scaling
+## 📉 Logistic Regression
 
-<details>
-<summary><strong>Logistic Regression Plots</strong></summary>
+### **LR Performance vs Sample Size**
+![LR Performance](plots/LR Performance vs Sample Size.png)
 
-![LR Performance](plots/LR Performance vs Sample Size.png)  
-![LR Time](plots/LR Training Time vs Sample Size.png)
+### **LR Training Time vs Sample Size**
+![LR Train Time](plots/LR Training Time vs Sample Size.png)
 
-</details>
+### **LR ROC Curve**
+![LR ROC](plots/ROC Curve - LR on HIGGS.png)
 
-<details>
-<summary><strong>Neural Network Plots</strong></summary>
-
-![NN Performance](plots/NN Performance vs Sample Size.png)  
-![NN Time](plots/NN Training Time vs Sample Size.png)
-
-</details>
+### **LR PR Curve**
+![LR PR](plots/PR Curve on HIGGS.png)
 
 ---
 
-## 🆚 LR vs NN – ROC & PR Curves
+## 🤖 Neural Network
 
-<details>
-<summary><strong>ROC Curve Comparison</strong></summary>
+### **NN Performance vs Sample Size**
+![NN Performance](plots/NN Performance vs Sample Size.png)
 
-![ROC](plots/ROC Curve Comparison.png)
+### **NN Training Time vs Sample Size**
+![NN Train Time](plots/NN Training Time vs Sample Size.png)
 
-</details>
+### **NN ROC Curve**
+![NN ROC](plots/ROC Curve - NN on HIGGS.png)
 
-<details>
-<summary><strong>PR Curve Comparison</strong></summary>
-
-![PR](plots/PR Curve Comparison.png)
-
-</details>
+### **NN PR Curve**
+![NN PR](plots/PR Curve on NN HIGGS.png)
 
 ---
 
-## 🛠 How to Run
+## 🆚 LR vs NN Comparison
+
+### **Accuracy Comparison**
+![Accuracy Comparison](plots/Accuracy Comparison.png)
+
+### **F1-Score Comparison**
+![F1 Comparison](plots/F1 Score Comparison.png)
+
+### **Training Time Comparison**
+![Time Comparison](plots/Training Time Comparison.png)
+
+### **ROC Curve Comparison**
+![ROC Comparison](plots/ROC Curve Comparison.png)
+
+### **PR Curve Comparison**
+![PR Comparison](plots/PR Curve Comparison.png)
+
+---
+
+## 🚀 How to Run
 
 ### 1️⃣ Create Environment
+
 
 conda create -n higgs python=3.13 -y
 conda activate higgs
