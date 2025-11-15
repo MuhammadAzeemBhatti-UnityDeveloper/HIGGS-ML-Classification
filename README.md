@@ -170,16 +170,16 @@ Logistic Regression is fast and stable, but cannot match NN classification power
 (After uploading images to figures/, these links will display graphs automatically.)
 
 🟠 ROC Curve – LR vs NN
-![ROC Curve Comparison](figures/lr_vs_nn_roc.png)
+![ROC Curve Comparison](plots/lr_vs_nn_roc.png)
 
 🟣 PR Curve – LR vs NN
-![PR Curve Comparison](figures/lr_vs_nn_pr.png)
+![PR Curve Comparison](plots/lr_vs_nn_pr.png)
 
 🔵 Training Time Comparison
-![Training Time Comparison](figures/training_time_lr_vs_nn.png)
+![Training Time Comparison](plots/training_time_lr_vs_nn.png)
 
 🟢 F1-score Comparison
-![F1 Comparison](figures/comparison_f1_lr_nn.png)
+![F1 Comparison](plots/comparison_f1_lr_nn.png)
 
 🧪 How to Run the Code
 1️⃣ Create Environment
