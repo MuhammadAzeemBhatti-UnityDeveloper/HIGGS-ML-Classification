@@ -155,51 +155,50 @@ Below are the plots generated during the experiment.
 
 ### **LR Performance vs Sample Size**
 ![LR Performance](plots/LR_Performance_vs_Sample_Size.png)
-![LR Performance](plots/LR Performance vs Sample Size.png)
 
 ### **LR Training Time vs Sample Size**
-![LR Train Time](plots/Accuracy Comparison.png)
+![LR Train Time](plots/Accuracy_Comparison.png)
 
 ### **LR ROC Curve**
-![LR ROC](plots/ROC Curve - LR on HIGGS.png)
+![LR ROC](plots/ROC_Curve_LR_on_HIGGS.png)
 
 ### **LR PR Curve**
-![LR PR](plots/PR Curve on HIGGS.png)
+![LR PR](plots/PR_Curve_on_HIGGS.png)
 
 ---
 
 ## 🤖 Neural Network
 
 ### **NN Performance vs Sample Size**
-![NN Performance](plots/NN Performance vs Sample Size.png)
+![NN Performance](plots/NN_Performance_vs_Sample_Size.png)
 
 ### **NN Training Time vs Sample Size**
-![NN Train Time](plots/NN Training Time vs Sample Size.png)
+![NN Train Time](plots/NN_Training_Time_vs_Sample_Size.png)
 
 ### **NN ROC Curve**
-![NN ROC](plots/ROC Curve - NN on HIGGS.png)
+![NN ROC](plots/ROC_Curve_NN_on_HIGGS.png)
 
 ### **NN PR Curve**
-![NN PR](plots/PR Curve on NN HIGGS.png)
+![NN PR](plots/PR_Curve_on_NN_HIGGS.png)
 
 ---
 
 ## 🆚 LR vs NN Comparison
 
 ### **Accuracy Comparison**
-![Accuracy Comparison](plots/Accuracy Comparison.png)
+![Accuracy Comparison](plots/Accuracy_Comparison.png)
 
 ### **F1-Score Comparison**
-![F1 Comparison](plots/F1 Score Comparison.png)
+![F1 Comparison](plots/F1 Score_Comparison.png)
 
 ### **Training Time Comparison**
-![Time Comparison](plots/Training Time Comparison.png)
+![Time Comparison](plots/Training_Time_Comparison.png)
 
 ### **ROC Curve Comparison**
-![ROC Comparison](plots/ROC Curve Comparison.png)
+![ROC Comparison](plots/ROC_Curve_Comparison.png)
 
 ### **PR Curve Comparison**
-![PR Comparison](plots/PR Curve Comparison.png)
+![PR Comparison](plots/PR_Curve_Comparison.png)
 
 ---
 
