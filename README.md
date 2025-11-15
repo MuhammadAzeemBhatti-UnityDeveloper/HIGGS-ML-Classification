@@ -154,10 +154,11 @@ Below are the plots generated during the experiment.
 ## 📉 Logistic Regression
 
 ### **LR Performance vs Sample Size**
+![LR Performance](plots/LR_Performance_vs_Sample_Size.png)
 ![LR Performance](plots/LR Performance vs Sample Size.png)
 
 ### **LR Training Time vs Sample Size**
-![LR Train Time](plots/LR Training Time vs Sample Size.png)
+![LR Train Time](plots/Accuracy Comparison.png)
 
 ### **LR ROC Curve**
 ![LR ROC](plots/ROC Curve - LR on HIGGS.png)
