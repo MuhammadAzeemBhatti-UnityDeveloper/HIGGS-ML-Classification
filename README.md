@@ -189,7 +189,7 @@ Below are the plots generated during the experiment.
 ![Accuracy Comparison](plots/Accuracy_Comparison.png)
 
 ### **F1-Score Comparison**
-![F1 Comparison](plots/F1 Score_Comparison.png)
+![F1 Comparison](plots/F1_Score_Comparison.png)
 
 ### **Training Time Comparison**
 ![Time Comparison](plots/Training_Time_Comparison.png)
