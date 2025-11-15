@@ -33,42 +33,43 @@ across different **training sample sizes** (1% → 100%).
 
 ## 📂 Project Structure
 
+```text
 HIGGS-ML-Classification/
 │
-├── notebooks/
-│ ├── 01_data_loading.ipynb
-│ ├── 02_preprocessing.ipynb
-│ ├── 03_logistic_regression_experiments.ipynb
-│ ├── 04_neural_network_experiments.ipynb
-│ └── 05_full_pipeline.ipynb
+├── notebooks/                     
+│   ├── 01_data_loading.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_logistic_regression_experiments.ipynb
+│   ├── 04_neural_network_experiments.ipynb
+│   └── 05_full_pipeline.ipynb
 │
-├── src/
-│ ├── logistic_regression.py
-│ ├── neural_network.py
-│ ├── preprocessing.py
-│ └── utils.py
+├── src/                          
+│   ├── COMPARISON OF LOGISTIC REGRESSION VS NEURAL NETWORK ON HIGGS DATASET.py
 │
-├── figures/
-│ ├── lr_roc_curve.png
-│ ├── nn_roc_curve.png
-│ ├── lr_pr_curve.png
-│ ├── nn_pr_curve.png
-│ ├── lr_vs_nn_roc.png
-│ ├── lr_vs_nn_pr.png
-│ ├── training_time_lr_vs_nn.png
-│ ├── comparison_f1_lr_nn.png
-│ └── comparison_accuracy_lr_nn.png
+├── plots/                        # All generated charts and graphs
+│   ├── LR_Performance_vs_Sample_Size.png
+│   ├── LR_Training_Time_vs_Sample_Size.png
+│   ├── ROC_Curve_LR_on_HIGGS.png
+│   ├── PR_Curve_on_HIGGS.png
+│   ├── NN_Performance_vs_Sample_Size.png
+│   ├── NN_Training_Time_vs_ample_Size.png
+│   ├── ROC_Curve_NN_on_HIGGS.png
+│   ├── PR_Curve_on_NN_HIGGS.png
+│   ├── Accuracy_Comparison.png
+│   ├── F1_Score_Comparison.png
+│   ├── Training_Time_Comparison.png
+│   ├── ROC_Curve_Comparison.png
+│   └── PR_Curve_Comparison.png
 │
-├── reports/
-│ ├── LogisticRegressionReport.txt
-│ ├── NeuralNetworkReport.txt
-│ └── higgs_summary.txt
+├── reports/                      # Text-format experiment outputs
+│   ├── LogisticRegressionReport.txt
+│   ├── NeuralNetworkReport.txt
+│   └── higgs_summary.txt
 │
 ├── README.md
 └── requirements.txt
+```
 
-yaml
-Copy code
 
 ---
 
