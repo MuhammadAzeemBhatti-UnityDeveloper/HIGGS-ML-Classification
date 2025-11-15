@@ -81,6 +81,17 @@ HIGGS-ML-Classification/
 
 The **HIGGS dataset** consists of simulated particle collision events used in high-energy physics.
 
+### Downloading the HIGGS dataset
+
+The original HIGGS dataset (7.5 GB CSV, 11M rows) is **not stored** in this repository.
+
+You can download it from the UCI Machine Learning Repository and place it as:
+
+`data/HIGGS.csv`
+
+Then update the notebook/`preprocessing.py` path if needed.
+
+
 ### **Dataset Properties**
 - **Total Samples:** 11,000,000  
 - **Features:** 28  
