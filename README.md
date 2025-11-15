@@ -46,7 +46,7 @@ HIGGS-ML-Classification/
 ├── src/                          
 │   ├── COMPARISON OF LOGISTIC REGRESSION VS NEURAL NETWORK ON HIGGS DATASET.py
 │
-├── plots/                        # All generated charts and graphs
+├── plots/                        
 │   ├── LR_Performance_vs_Sample_Size.png
 │   ├── LR_Training_Time_vs_Sample_Size.png
 │   ├── ROC_Curve_LR_on_HIGGS.png
@@ -61,10 +61,14 @@ HIGGS-ML-Classification/
 │   ├── ROC_Curve_Comparison.png
 │   └── PR_Curve_Comparison.png
 │
-├── reports/                      # Text-format experiment outputs
+├── reports/                     
 │   ├── LogisticRegressionReport.txt
 │   ├── NeuralNetworkReport.txt
 │   └── higgs_summary.txt
+│
+├── paper/                    
+│   ├── REPORT.pdf
+│   ├── RESEARCH PAPER.pdf
 │
 ├── README.md
 └── requirements.txt
